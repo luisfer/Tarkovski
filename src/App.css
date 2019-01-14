@@ -1,3 +1,7 @@
+.title {
+  font-family: 'Libre Baskerville', serif;
+}
+
 .App {
   text-align: center;
 }
@@ -29,4 +33,53 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.padding-top-normal {
+  padding-top: 30px;
+}
+
+.background-hero {
+  background-color: #004C99;
+  z-index: 1000;
+  width: 100%;
+}
+
+.text-white {
+  color: white !important;
+}
+
+.movie-title {
+  font-size: 72px;
+  font-weight: 700;
+}
+
+.blue-text {
+  color: #004C99;
+}
+
+.bold-text {
+  font-weight: 700;
+}
+
+.align-left {
+  text-align: left;
+}
+
+.big-padding {
+  padding: 30px;
+}
+
+.position-fixed {
+  position: fixed;
+}
+
+.list {
+  overflow-y: scroll;
+  position: relative;
+}
+
+.hoverable:hover {
+  text-decoration: underline;
+  color: #004C99;
 }
