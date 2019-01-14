@@ -78,7 +78,8 @@ class App extends Component {
 
   addToFavorites(film){
     let favorites = [...this.state.favorites, film];
-    this.setState({ favorites: favorites});
+    let favoritesSet = [...new Set(favorites)];
+    this.setState({ favorites: favoritesSet});
   }
 
   generateFavorites(){
